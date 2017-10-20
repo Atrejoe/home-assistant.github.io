@@ -16,6 +16,7 @@ Hass.io images are available for all available Raspberry Pi and Intel NUC platfo
   - [Raspberry Pi 2][pi2]
   - [Raspberry Pi 3][pi3]
   - [Intel NUC][nuc]
+- Unzip the image from the downloaded `.bz2` file
 - Flash the downloaded image to an SD card using [Etcher].
 - Optional - Setup the WiFi or static IP: On the SD-card, edit the `system-connections/resin-sample` file and follow the [ResinOS howto][resinos-network].
 - Insert SD card to Raspberry Pi and turn it on. On first boot, it downloads the latest version of Home Assistant which takes ~20 minutes (slower/faster depending on the platform).
